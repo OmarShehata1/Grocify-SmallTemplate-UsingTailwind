@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="container relative px-28 py-5 min-h-screen bg-[url('images/image.png')] bg-center bg-cover"
+    >
+      <nav class="flex items-center sm:text-sm">
+        <img src="images/logo.png" class="w-40 md:w-32 sm:w-24 cursor-pointer" alt="logo" />
+        <ul class="flex-1 text-center">
+          <li class="inline-block px-5">
+            <a href="#" class="no-underline text-white px-2 hover:text-yellow-500">Home</a>
+          </li>
+          <li class="inline-block px-5">
+            <a href="#" class="no-underline text-white px-2 hover:text-yellow-500">About</a>
+          </li>
+          <li class="inline-block px-5">
+            <a href="#" class="no-underline text-white px-2 hover:text-yellow-500">Features</a>
+          </li>
+          <li class="inline-block px-5">
+            <a href="#" class="no-underline text-white px-2 hover:text-yellow-500">Contact</a>
+          </li>
+        </ul>
+        <img src="images/cart.png" class="w-8 cursor-pointer" alt="Cart img" />
+      </nav>
+
+      <div class="text-white mt-48 max-w-xl">
+        <h1 class="text-6xl font-bold leading-normal sm:text-justify md:text-justify">
+          Greceries <br />delivery in <span class="font-light">15 mins</span>
+        </h1>
+        <p class="sm:text-justify md:text-justify">
+          Grocify offer a wide range of product, including fresh products,
+          meats, dairy, baked goods and non-perishable items.
+        </p>
+
+        <div class="mt-10">
+          <a
+            href="#"
+            class="bg-yellow-500 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-500 hover:border border border--transparent rounded-3xl py-3 px-8 font-medium inline-block mr-4"
+            >Order Now</a
+          >
+          <a href="#" class="rounded-3xl py-4 px-8 font-medium inline-block"
+            >Download App
+            <span class="text-lg inline-block rotate-90">&#10148;</span></a
+          >
+        </div>
+      </div>
+
+      <img src="images/grocery-image.png" class="w-full xl:w-2/5 xl:absolute bottom-0 right-24" alt="" />
+    </div>
+  </body>
+</html>
